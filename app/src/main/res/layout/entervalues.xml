@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="237dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="Word"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="237dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="Synonym/Antonym of Word"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClickSubmit"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="364dp" />
+</android.support.constraint.ConstraintLayout>
